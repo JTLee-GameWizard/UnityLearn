@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] float xValue = 0.01f;
+    float yValue = 0.01f;
+    float zValue = 0.01f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.01f,0.0f, 0.0f);
+        transform.Translate(xValue,yValue,zValue);
     }
 }
