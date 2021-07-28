@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-public class PlayerCharacter : MonoBehaviour
+public class PlayerCharacterWithInput : MonoBehaviour
 {
     InputCompActions inputCompActions;
     // Start is called before the first frame update
